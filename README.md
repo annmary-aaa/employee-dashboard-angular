@@ -1,59 +1,68 @@
-# EmpolyeeDashboard
+# Employee Management Dashboard
+------
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
 
-## Development server
+## Team Members
+- Ann Mary Johnson
+- Ronit Anegundi
+- Turimella Lakshmi Swetha
+- Steeva Mariam Jose
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---------
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📌 Project Overview
+The Employee Management Dashboard is a web-based application developed using Angular and TypeScript.  
+The application provides a simple and interactive interface to display employee details such as name, role, department, and salary.  
+This project was developed as part of the CIA-2 academic requirement.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🎯 Objectives
+- To understand Angular fundamentals and TypeScript  
+- To implement standalone Angular components  
+- To apply component-based architecture  
+- To use structural directives such as *ngFor  
+- To apply CSS styling for better user interface  
+- To use GitHub for project version control and submission  
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 🛠 Tools & Technologies Used
+- Angular 17  
+- TypeScript  
+- HTML5  
+- CSS3  
+- Node.js  
+- Angular CLI  
+- Visual Studio Code  
+- Windows Terminal  
+- Git and GitHub  
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🧩 Project Features
+- Standalone Angular components  
+- Employee list displayed in table format  
+- Employee detail section  
+- Reusable navbar component  
+- Component-level CSS styling  
+- Clean and user-friendly UI  
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 🏗 Project Architecture
+- **AppComponent** – Root component  
+- **NavbarComponent** – Displays application title  
+- **EmployeeListComponent** – Displays employee data using *ngFor  
+- **EmployeeDetailComponent** – Displays employee information  
+- **Employee Model** – TypeScript interface for employee data  
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
+## Link to open :  http://localhost:4200/
 
-```bash
-ng test
-```
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
