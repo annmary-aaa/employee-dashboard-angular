@@ -1,6 +1,30 @@
-<h3>Employee List</h3>
+<h3>Employee Management</h3>
 
-<table border="1" cellpadding="8">
+<!-- Tabs -->
+<div class="tabs">
+  <button (click)="showAdd = true; showDelete = false">Add Employee</button>
+  <button (click)="showDelete = true; showAdd = false">Delete Employee</button>
+</div>
+
+<!-- Add Employee Section -->
+<div *ngIf="showAdd" class="section">
+  <h4>Add Employee</h4>
+  <input type="text" placeholder="Name" [(ngModel)]="newEmployee.name">
+  <input type="text" placeholder="Role" [(ngModel)]="newEmployee.role">
+  <input type="text" placeholder="Department" [(ngModel)]="newEmployee.department">
+  <input type="number" placeholder="Salary" [(ngModel)]="newEmployee.salary">
+  <button (click)="addEmployee()">Add</button>
+</div>
+
+<!-- Delete Employee Section -->
+<div *ngIf="showDelete" class="section">
+  <h4>Delete Employee</h4>
+  <input type="number" placeholder="Employee ID" [(ngModel)]="deleteId">
+  <button (click)="deleteEmployee()">Delete</button>
+</div>
+
+<!-- Employee Table -->
+<table>
   <tr>
     <th>ID</th>
     <th>Name</th>
@@ -17,4 +41,5 @@
     <td>{{ emp.salary }}</td>
   </tr>
 </table>
+
 

@@ -1,3 +1,27 @@
+.tabs {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  margin: 5px;
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
 h3 {
   text-align: center;
   color: #2c3e50;
